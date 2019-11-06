@@ -30,7 +30,6 @@ spring:
         username: postgres
         password: '123456'
         schema: classpath:/schema.sql
-        initialization-mode: always
     jpa:
         hibernate:
           ddl-auto: none
